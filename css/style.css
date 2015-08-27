@@ -1,0 +1,30 @@
+body {
+	background-color: #edeff2;
+}
+
+.header-image {
+	height: 200px;
+	background-image: url('../images/header.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.input-group {
+	margin-bottom: 20px;
+}
+
+.login-form {
+	padding: 25px;
+}
+
+.login-form h1 {
+	margin-bottom: 30px;
+	margin-top: 0px;
+}
+
+#footer {
+	background-color: #4d4d4d;
+	color: #dddddd;
+	padding: 20px;
+	text-align: center;
+}
