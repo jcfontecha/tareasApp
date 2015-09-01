@@ -9,6 +9,10 @@ body {
 	background-repeat: no-repeat;
 }
 
+.main-container {
+	padding: 15px;
+}
+
 .input-group {
 	margin-bottom: 20px;
 }
