@@ -7,6 +7,7 @@ body {
 	background-image: url('../images/header.png');
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 .main-container {
@@ -31,4 +32,8 @@ body {
 	color: #dddddd;
 	padding: 20px;
 	text-align: center;
+}
+
+.nav-tabs {
+	margin-bottom: 20px;
 }
