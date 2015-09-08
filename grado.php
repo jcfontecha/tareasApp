@@ -17,6 +17,9 @@
 					<?php $idGrupo = strtolower($nombre) . $grupos[$i]; ?>
 					<div id="<?php echo $idGrupo; ?>" class="tab-pane fade <?php echo ($i == 0)? "in active" : ""; ?>">
 						<h4><?php echo $nombre . " " . $grupos[$i]; ?></h4>
+						<?php if (!isset($_SESSION["user"])) : ?>
+							<a href="editarTarea.php" class="btn btn-default pull-right"><i class="fa fa-plus-circle"></i> Añadir tarea</a>
+						<?php endif; ?>
 						<p>Some content.</p>
 					</div>
 				<?php } ?>
